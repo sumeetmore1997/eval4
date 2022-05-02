@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/search.css">
+    <link rel="stylesheet" href="/style/navbar.css">
+  </head>
+  <body>
+  
+    <div id="navbar">
+      <!-- <a href="index.html"><p>News App</p></a> 
+       <input type="text" id="search_input" placeholder="Search News" onclick="search()"> -->
+    </div>
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+
+    <div id="block2">
+      <div id="sidebar">
+        <h2 >Countries</h2>
+        <h3 id="in" onclick="cSearch(this.id)">India</h3>
+        <h3 id="ch" onclick="cSearch(this.id)">China</h3>
+        <h3 id="us" onclick="cSearch(this.id)">USA</h3>
+        <h3 id="uk" onclick="cSearch(this.id)">United Kingdom</h3>
+        <h3 id="nz" onclick="cSearch(this.id)">New Zeland</h3>
+      </div>
+      <div id="results"></div>
+    </div>
+
+   
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+  </body>
+</html>
+<script src="./scripts/index.js" type="module"></script>

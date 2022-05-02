@@ -1,0 +1,22 @@
+#block2{
+    margin-top: 15px;
+    width: 100%;
+    height: 1000px;
+    border: 1px solid teal;
+    display: flex;
+    }
+    #sidebar{
+    height: 350px;
+    width: 200px;
+    /* border: 1px solid red; */
+    background-color: bisque;
+    }
+    h2{
+        text-align: center;
+    }
+    #sidebar>h3{
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        background-color: teal;
+    }

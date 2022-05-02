@@ -1,0 +1,16 @@
+#detailed_news{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* display: flex; */
+   
+}
+#detailed_news>div{
+    border: 1px solid black;
+     width: 550px;
+     margin: 10px;
+}
+img{
+    height: 200px;
+    width: 550px;
+}

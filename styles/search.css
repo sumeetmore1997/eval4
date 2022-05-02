@@ -1,0 +1,18 @@
+#results{
+    display: grid;
+    gap: 20px;
+} 
+#results>div{
+    grid-template-columns: repeat(1,1fr);
+     grid-template-rows: auto; 
+    border: 1px solid red;
+}
+.img{
+    height: 100%;
+    width: 250px;
+}
+.center{
+
+ margin-left: 20%;
+
+}
